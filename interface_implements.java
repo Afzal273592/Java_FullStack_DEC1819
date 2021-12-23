@@ -1,6 +1,6 @@
 package day4.homework;
 
-public class interfaceClass implements Interface_class {
+public class interface_implements implements Interface_class {
 	static String Name = "";
 	static int rollnum;
 	static float cgpa;
@@ -25,7 +25,7 @@ public class interfaceClass implements Interface_class {
 
 	public static void main(String[] args) {
 		
-		interfaceClass inter = new interfaceClass();
+		interface_implements inter = new interface_implements();
 		
 		inter.Name("MUHAMMAD AKRAM");
 		
